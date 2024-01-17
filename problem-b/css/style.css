@@ -1,0 +1,48 @@
+/*Top 5 Songs */
+
+/*heading has font weight, family, and centered text */
+h1 {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/*Table takes up half page width and is centered with auto values. Border is collapsed */
+table {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+/*Table heading elements have a height, aligned text, and color */ 
+th {
+  text-align: left;
+  height: 2rem;
+  color: #1db954;
+  background-color: #d3d3d3;
+  padding: 0.5em;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/*The cells have .5em padding and border bottoms*/
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/*The images of albums have a set size*/ 
+img {
+  width: 100px;
+  height: 100px;
+}
+
+/*Every other row is gray starting with the second row*/
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+/*When hovering over a row, the row turns pink*/
+tbody tr:hover {
+  background-color: pink;
+}
